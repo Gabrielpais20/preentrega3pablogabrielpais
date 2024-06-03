@@ -1,0 +1,164 @@
+.carousel-item {
+    height: 900px; 
+}
+
+.carousel-item.active img {
+object-fit: cover;    
+height: 100%;
+height: 100%; 
+} 
+
+ .carousel-item.active button {
+ color:aqua;
+ background-color: blueviolet;
+ } 
+ .custom-bg-purple {
+    background-color: #6f42c1; 
+}
+
+body {
+    background-color: #333; 
+    color: #fff; 
+}
+
+
+/* .container{
+    display: flex;
+    gap: 20px;
+   justify-content: center;
+   padding: 20px; 
+   
+} */
+
+.tittle{
+    padding-top: 20px;
+    padding: 10px;
+}
+
+.container {
+    display: grid;
+    gap: 20px;
+    padding: 20px;
+    grid-template-columns: repeat(4, 1fr);
+    font-size: 30px;
+}
+
+ .titulo{
+  text-align: center;
+  font-size: 2.5em;
+  font-weight: bold;
+  text-align: center;
+  color: #6f42c1;
+}
+
+
+
+.products{
+    border: 2px solid;
+    border-radius: 10px;
+    padding: 10px;
+    height: auto; 
+    width: 250px;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    background-color:  #6f42c1;  
+}
+
+
+
+.products img {
+    max-width: 100%;
+    height: 50%;
+    margin-bottom: 10px;
+    object-fit: cover;
+}
+
+
+
+.products h3 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.products p {
+    font-size: 1em;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.products button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+.precios{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+ .bi-plus{
+    color: green;
+}
+.bi-dash{
+    color: red;
+}
+
+@media (max-width: 800px) {
+    .carousel-item {
+        height: 100vh;
+    }
+}
+
+/* @media (max-width: 950px)  {
+    .container {
+        grid-template-columns: repeat(3, 1fr);
+        font-size: 22px;
+    }
+} */
+@media (max-width: 950px) {
+    .container {
+        grid-template-columns: repeat(2, 1fr);
+        font-size: 18px; 
+    }
+}
+
+
+
+
+/* @media (max-width: 600px) {
+    .container {
+        grid-template-columns: 1fr;
+        justify-content: center;
+        align-items: center;
+    }
+} */
+@media (max-width: 600px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 16px;
+    }
+}
+
+.description {
+    text-align: center;
+    padding: 10px;
+}
+
+
+.nombre {
+    font-size: 1.5em;
+    margin: 10px 0;
+    color: #fff; 
+    padding: 10px;
+}
